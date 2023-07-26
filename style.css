@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: azure;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+main{
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    
+}
+
+.menu-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.menu-bar img{
+    height: 60px;
+}
+
+.menu-bar div{
+    padding: 0px 36px 6px 0px;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+    font-size: 14px;
+}
+
+.slider{
+    display: flex;
+    overflow:scroll;
+    padding: 16px 0px;
+}
+
+.slider img{
+    height: fit-content;
+
+}
+.slidingdiv{
+    display: flex;
+    height: 361px;
+    margin-top: 10px;
+}
+.slidingdiv1,.slidingdiv2 , .slidingdiv3{
+    display: flex;
+    
+}
+
+.slidingdiv1 .side-div{
+    width: 230px;
+    background: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90") no-repeat;
+    background-position:0px bottom;
+}
+.slidingdiv2 .side-div{
+    width: 230px;
+    background: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90") no-repeat;
+    background-position:0px bottom;
+}
+.slidingdiv3 .side-div{
+    width: 230px;
+    background: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90") no-repeat;
+    background-position:0px bottom;
+}
+
+
+.side-div button{
+    position: relative;
+    top: 192px;
+    left: 60px;
+    color: white;
+    background-color: #2874f0;
+    border-style: none;
+    padding: 15px 24px;
+    z-index: -1;
+}
+.sliding-items{
+    display: flex;
+    overflow: scroll;
+    width: 950px;
+    background-color: white;
+}
+
+.slidingdiv2 .sliding-items,.slidingdiv3 .sliding-items{
+    width: 83vw;
+}
+
+.sliding-items-card{
+    min-width: 232px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sliding-items-card a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px 15px;
+}
+.sliding-items-card-div1{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+.sliding-items-card-div1 img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.sliding-items-card-div2{
+    
+    color:rgb(33, 33, 33);
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+.sliding-items-card-div3{
+    padding-top: 7px;
+    color:#388e3c;
+
+}
+.sliding-items-card-div4{
+    padding-top: 8px;
+    color: #878787;
+    font-size:14px;
+}
+
+.right-side-div img{
+    height: 354px;
+    position: sticky;
+    right: 0;
+    z-index: -1;
+}
+
+
+
+footer{
+    background-color: #172337;
+    
+}
+/* footer a{
+    
+} */
+.footdivUpper{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footdiv1{
+    margin: 38px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.foot-heading{
+     margin-bottom: 9px;
+}
+.foot-heading a{
+    color:#878787;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.footdiv-items a{
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    line-height: 2;
+}
+
+.footdivLower{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footdivLower a{
+    color:white;
+    text-decoration: none;
+    /* font-size: 12px; */
+    font-weight: 400;
+}
+
+.footdivLoweritems{
+    margin: 30px 0px;
+    color:white;
+}
+.footdivLoweritems img{
+    margin-right: 2px;
+    
+}
