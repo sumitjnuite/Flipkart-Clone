@@ -1,0 +1,53 @@
+/* 872 se 996 tk  */
+@media only screen and (max-width:996px){     
+    .headcont-div2{
+        margin-left:7vw;
+        margin-right:7vw;
+    }
+}
+
+/* 765px se 872 tk  */
+@media only screen and (max-width:872px){     
+    .headcont-div2{
+        margin-left:1vw;
+        margin-right:1vw;
+    }
+}
+
+/* 510px to 765 px ke liye theek */
+@media only screen and (max-width:765px){     
+    .nav-search{
+        /* max-height:36px ;
+        max-width:520px ; */
+       width: 53vw;  
+        
+    }
+    
+}
+
+/* 340 se 510 px tk */
+@media only screen and (max-width:510px){     
+    .nav-search{
+        /* max-height:36px ;
+        max-width:520px ; */
+       width: 95vw;  
+        
+    }
+    .headcont-div3{
+        margin: 2vw 26vw;
+    }
+}
+
+/* 340 ke neeche */
+@media only screen and (max-width:340px){     
+    .nav-search{
+        /* max-height:36px ;
+        max-width:520px ; */
+       width: 95vw;  
+        
+    }
+    .headcont-div3{
+        margin: 2vw 25vw;
+    }
+}
+
